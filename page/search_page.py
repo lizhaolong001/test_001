@@ -12,8 +12,8 @@ class SearchPage(BaseAction):
 
     @allure.step(title='输入关键字')
     def input_key_word(self, text):
-        a = [1, 2]
-        print(a[3])
+        # a = [1, 2]
+        # print(a[3])
         self.input(self.search_edit_text, text)
 
     @allure.step(title='点击返回')
